@@ -52,6 +52,30 @@ body {
   text-align: center;
 }
 
+.input-group > form > * {
+  margin-top: 0.75rem;
+}
+
+.results-group {
+  margin-top: 2rem;
+}
+
+.country-results-group {
+  margin-top: 1rem;
+}
+
 .input-group > form {
   margin: 0 auto;
+}
+
+#results {
+  text-align: center;
+}
+
+.country-result {
+  text-align: center;
+}
+
+.country-name {
+  margin-top: 1rem;
 }

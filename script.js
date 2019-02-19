@@ -6,7 +6,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
   const gender = maleButton.checked ? maleButton.value : femaleButton.value;
   console.log(birthDate);
   console.log(gender);
-  document.getElementById("results").innerHTML = `<p>Life expectancy for a ${ gender } born on ${ birthDate.format('MMMM Do, YYYY') }:</p>`;
+  document.getElementById("results").innerHTML = `<h2>Life expectancy for a ${ gender } born on ${ birthDate.format('MMMM Do, YYYY') }:</h2>`;
 
   const usUrl = `http://api.population.io:80/1.0/life-expectancy/total/${gender}/United%20States/${birthDate.format('YYYY-MM-DD')}/`;
   console.log(usUrl);
@@ -17,7 +17,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
     console.log(usJson);
     let usResults = ``;
     usResults += `<img src="/images/us_flag.svg" height="100">` +
-        `<h2>United States</h2>` +
+        `<h2 class="country-name">United States</h2>` +
         `<p>${usJson.total_life_expectancy.toFixed(2)} years</p>`;
     document.getElementById("us-results").innerHTML = usResults;
   });
@@ -30,7 +30,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
     console.log(germanyJson);
     let germanyResults = ``;
     germanyResults += `<img src="/images/germany_flag.svg" height="100">` +
-        `<h2>Germany</h2>` +
+        `<h2 class="country-name">Germany</h2>` +
         `<p>${germanyJson.total_life_expectancy.toFixed(2)} years</p>`;
     document.getElementById("germany-results").innerHTML = germanyResults;
   });
@@ -43,7 +43,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
     console.log(chinaUrl);
     let chinaResults = ``;
     chinaResults += `<img src="/images/china_flag.svg" height="100">` +
-        `<h2>China</h2>` +
+        `<h2 class="country-name">China</h2>` +
         `<p>${chinaUrl.total_life_expectancy.toFixed(2)} years</p>`;
     document.getElementById("china-results").innerHTML = chinaResults;
   });
@@ -56,7 +56,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
     console.log(peruJson);
     let peruResults = ``;
     peruResults += `<img src="/images/peru_flag.png" height="100">` +
-        `<h2>Peru</h2>` +
+        `<h2 class="country-name">Peru</h2>` +
         `<p>${peruJson.total_life_expectancy.toFixed(2)} years</p>`;
     document.getElementById("peru-results").innerHTML = peruResults;
   });
@@ -69,7 +69,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
     console.log(haitiJson);
     let usResults = ``;
     usResults += `<img src="/images/haiti_flag.png" height="100">` +
-        `<h2>Haiti</h2>` +
+        `<h2 class="country-name">Haiti</h2>` +
         `<p>${haitiJson.total_life_expectancy.toFixed(2)} years</p>`;
     document.getElementById("haiti-results").innerHTML = usResults;
   });
@@ -82,7 +82,7 @@ document.getElementById("input-submit").addEventListener("click", function (even
     console.log(ghanaJson);
     let ghanaResults = ``;
     ghanaResults += `<img src="/images/ghana_flag.png" height="100">` +
-        `<h2>Ghana</h2>` +
+        `<h2 class="country-name">Ghana</h2>` +
         `<p>${ghanaJson.total_life_expectancy.toFixed(2)} years</p>`;
     document.getElementById("ghana-results").innerHTML = ghanaResults;
   });
