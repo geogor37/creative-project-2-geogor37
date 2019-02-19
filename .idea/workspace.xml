@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64e3cb6-dacb-467c-bfbf-c3f21b19b1d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="138">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -30,7 +30,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -55,9 +55,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -117,12 +117,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550540430647</updated>
-      <workItem from="1550540432500" duration="747000" />
+      <workItem from="1550540432500" duration="1822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="747000" />
+    <option name="totallyTimeSpent" value="1822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -151,13 +151,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -165,6 +158,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>

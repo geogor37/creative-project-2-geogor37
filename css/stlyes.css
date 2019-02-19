@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  min-height: 100%;
+  background-color: #B3D3D6;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.box .container {
+  margin: 0 auto;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  color: white;
+  background-color: #728789;
+  padding: .5em 0;
+  text-align: center;
+}
+
+#weatherResults {
+  padding-bottom: 24px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#forecastResults {
+  padding-top: 24px;
+}
+
+.forecast-container {
+  margin: 1.5rem 5rem 3rem 5rem;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: white;
+}
+
+.forecast {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.forecast-info {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);    /* Older Gecko browser */
+  -ms-transform: translateY(-50%);     /* IE9+ */
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.forecast-info > * {
+  line-height: 12px;
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.row.forecast-row {
+  margin: 0.5rem 1rem;
+}
+
+.row.forecast-row.header {
+  font-weight: bold;
+}
+
+.row.forecast-row.not-header {
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 1rem;
+  padding: .5rem 0;
+}
+
+.shade {
+  background-color: lightgrey;
+  margin: 0 .5rem;
+}
+
+.forecast-date {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);    /* Older Gecko browser */
+  -ms-transform: translate(-50%, -50%);     /* IE9+ */
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.forecast-cell {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.forecast-date > * {
+  font-weight: bold;
+}
+
+.forecast.day {
+  font-size: 32px;
+}
