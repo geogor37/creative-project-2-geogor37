@@ -16,9 +16,17 @@
     </form>
   </nav>
 
-  <div class="forecast-container">
-    <div id="weatherResults">
-      <h1 align="center" style="padding-top: 24px">Search for a city to see its weather forecast!</h1>
+  <div class="data-container">
+    <h1 align="center" style="padding-top: 24px">Calculate Your Life Expectancy!</h1>
+    <form>
+      Date of Birth:
+      <input id="dob-input" type="date"><br>
+      <input class="gender-button" id="male-button" type="radio" value="male"> Male
+      <input class="gender-button" id="female-button" type="radio" value="female"> Female<br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <div id="results">
     </div>
     <div id="forecastResults"></div>
   </div>
