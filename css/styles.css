@@ -47,3 +47,11 @@ body {
   flex: 1;
   background-color: white;
 }
+
+.input-group {
+  text-align: center;
+}
+
+.input-group > form {
+  margin: 0 auto;
+}
